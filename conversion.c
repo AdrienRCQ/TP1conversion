@@ -3,6 +3,7 @@
 #include <ctype.h>
 #include <math.h>
 
+
 //Binaire → Décimal
 
 int bintodec(char *val)
@@ -39,6 +40,8 @@ int hexatodec(char *val)
     }
     printf("La conversion hexadécimal - décimal nous donne : %d\n", resultat);
 }
+
+
 
 //Décimal → Hexadécimal
 
@@ -85,6 +88,9 @@ char *dectohexa(unsigned int val)
 
     return 0;
 }
+
+
+
 
 int main() {
    bintodec("1001");
